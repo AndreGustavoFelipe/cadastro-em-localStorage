@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Teko:wght@300&display=swap');
+
+
+body{
+    background-image: url(background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow-y: hidden;
+    font-family: 'Abel', sans-serif;
+    font-family: 'Teko', sans-serif;
+    color: white;
+}
+
+.modal{
+    color: black;
+}
+
+.container{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.bg{
+    background-color: rgba(176, 176, 176, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
